@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500D614F1CA2D8BB003F76A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D614E1CA2D8BB003F76A2 /* AppDelegate.m */; };
+		500D61521CA2D8BB003F76A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D61511CA2D8BB003F76A2 /* main.m */; };
+		500D61551CA2D8BB003F76A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D61541CA2D8BB003F76A2 /* ViewController.m */; };
+		500D61571CA2D8BB003F76A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500D61561CA2D8BB003F76A2 /* Assets.xcassets */; };
+		500D615A1CA2D8BB003F76A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500D61581CA2D8BB003F76A2 /* Main.storyboard */; };
+		500D61651CA2D8BB003F76A2 /* RTScreenRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D61641CA2D8BB003F76A2 /* RTScreenRecorderTests.m */; };
+		500D61701CA2D8BB003F76A2 /* RTScreenRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D616F1CA2D8BB003F76A2 /* RTScreenRecorderUITests.m */; };
+		500D617F1CA2DAAA003F76A2 /* RTScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D617E1CA2DAAA003F76A2 /* RTScreenRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		500D61611CA2D8BB003F76A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500D61421CA2D8BB003F76A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500D61491CA2D8BB003F76A2;
+			remoteInfo = RTScreenRecorder;
+		};
+		500D616C1CA2D8BB003F76A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 500D61421CA2D8BB003F76A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500D61491CA2D8BB003F76A2;
+			remoteInfo = RTScreenRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		500D614A1CA2D8BB003F76A2 /* RTScreenRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTScreenRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		500D614D1CA2D8BB003F76A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		500D614E1CA2D8BB003F76A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		500D61511CA2D8BB003F76A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		500D61531CA2D8BB003F76A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		500D61541CA2D8BB003F76A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		500D61561CA2D8BB003F76A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		500D61591CA2D8BB003F76A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		500D615B1CA2D8BB003F76A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500D61601CA2D8BB003F76A2 /* RTScreenRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTScreenRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		500D61641CA2D8BB003F76A2 /* RTScreenRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTScreenRecorderTests.m; sourceTree = "<group>"; };
+		500D61661CA2D8BB003F76A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500D616B1CA2D8BB003F76A2 /* RTScreenRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTScreenRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		500D616F1CA2D8BB003F76A2 /* RTScreenRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTScreenRecorderUITests.m; sourceTree = "<group>"; };
+		500D61711CA2D8BB003F76A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500D617D1CA2DAAA003F76A2 /* RTScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTScreenRecorder.h; sourceTree = "<group>"; };
+		500D617E1CA2DAAA003F76A2 /* RTScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTScreenRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		500D61471CA2D8BB003F76A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500D615D1CA2D8BB003F76A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500D61681CA2D8BB003F76A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500D61411CA2D8BB003F76A2 = {
+			isa = PBXGroup;
+			children = (
+				500D614C1CA2D8BB003F76A2 /* RTScreenRecorder */,
+				500D61631CA2D8BB003F76A2 /* RTScreenRecorderTests */,
+				500D616E1CA2D8BB003F76A2 /* RTScreenRecorderUITests */,
+				500D614B1CA2D8BB003F76A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		500D614B1CA2D8BB003F76A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				500D614A1CA2D8BB003F76A2 /* RTScreenRecorder.app */,
+				500D61601CA2D8BB003F76A2 /* RTScreenRecorderTests.xctest */,
+				500D616B1CA2D8BB003F76A2 /* RTScreenRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		500D614C1CA2D8BB003F76A2 /* RTScreenRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				500D614D1CA2D8BB003F76A2 /* AppDelegate.h */,
+				500D614E1CA2D8BB003F76A2 /* AppDelegate.m */,
+				500D61531CA2D8BB003F76A2 /* ViewController.h */,
+				500D61541CA2D8BB003F76A2 /* ViewController.m */,
+				500D61561CA2D8BB003F76A2 /* Assets.xcassets */,
+				500D61581CA2D8BB003F76A2 /* Main.storyboard */,
+				500D615B1CA2D8BB003F76A2 /* Info.plist */,
+				500D61501CA2D8BB003F76A2 /* Supporting Files */,
+				500D617D1CA2DAAA003F76A2 /* RTScreenRecorder.h */,
+				500D617E1CA2DAAA003F76A2 /* RTScreenRecorder.m */,
+			);
+			path = RTScreenRecorder;
+			sourceTree = "<group>";
+		};
+		500D61501CA2D8BB003F76A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				500D61511CA2D8BB003F76A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		500D61631CA2D8BB003F76A2 /* RTScreenRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				500D61641CA2D8BB003F76A2 /* RTScreenRecorderTests.m */,
+				500D61661CA2D8BB003F76A2 /* Info.plist */,
+			);
+			path = RTScreenRecorderTests;
+			sourceTree = "<group>";
+		};
+		500D616E1CA2D8BB003F76A2 /* RTScreenRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				500D616F1CA2D8BB003F76A2 /* RTScreenRecorderUITests.m */,
+				500D61711CA2D8BB003F76A2 /* Info.plist */,
+			);
+			path = RTScreenRecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500D61491CA2D8BB003F76A2 /* RTScreenRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500D61741CA2D8BB003F76A2 /* Build configuration list for PBXNativeTarget "RTScreenRecorder" */;
+			buildPhases = (
+				500D61461CA2D8BB003F76A2 /* Sources */,
+				500D61471CA2D8BB003F76A2 /* Frameworks */,
+				500D61481CA2D8BB003F76A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTScreenRecorder;
+			productName = RTScreenRecorder;
+			productReference = 500D614A1CA2D8BB003F76A2 /* RTScreenRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		500D615F1CA2D8BB003F76A2 /* RTScreenRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500D61771CA2D8BB003F76A2 /* Build configuration list for PBXNativeTarget "RTScreenRecorderTests" */;
+			buildPhases = (
+				500D615C1CA2D8BB003F76A2 /* Sources */,
+				500D615D1CA2D8BB003F76A2 /* Frameworks */,
+				500D615E1CA2D8BB003F76A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				500D61621CA2D8BB003F76A2 /* PBXTargetDependency */,
+			);
+			name = RTScreenRecorderTests;
+			productName = RTScreenRecorderTests;
+			productReference = 500D61601CA2D8BB003F76A2 /* RTScreenRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		500D616A1CA2D8BB003F76A2 /* RTScreenRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500D617A1CA2D8BB003F76A2 /* Build configuration list for PBXNativeTarget "RTScreenRecorderUITests" */;
+			buildPhases = (
+				500D61671CA2D8BB003F76A2 /* Sources */,
+				500D61681CA2D8BB003F76A2 /* Frameworks */,
+				500D61691CA2D8BB003F76A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				500D616D1CA2D8BB003F76A2 /* PBXTargetDependency */,
+			);
+			name = RTScreenRecorderUITests;
+			productName = RTScreenRecorderUITests;
+			productReference = 500D616B1CA2D8BB003F76A2 /* RTScreenRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		500D61421CA2D8BB003F76A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RavenTech;
+				TargetAttributes = {
+					500D61491CA2D8BB003F76A2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					500D615F1CA2D8BB003F76A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 500D61491CA2D8BB003F76A2;
+					};
+					500D616A1CA2D8BB003F76A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 500D61491CA2D8BB003F76A2;
+					};
+				};
+			};
+			buildConfigurationList = 500D61451CA2D8BB003F76A2 /* Build configuration list for PBXProject "RTScreenRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 500D61411CA2D8BB003F76A2;
+			productRefGroup = 500D614B1CA2D8BB003F76A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500D61491CA2D8BB003F76A2 /* RTScreenRecorder */,
+				500D615F1CA2D8BB003F76A2 /* RTScreenRecorderTests */,
+				500D616A1CA2D8BB003F76A2 /* RTScreenRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		500D61481CA2D8BB003F76A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500D61571CA2D8BB003F76A2 /* Assets.xcassets in Resources */,
+				500D615A1CA2D8BB003F76A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500D615E1CA2D8BB003F76A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500D61691CA2D8BB003F76A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		500D61461CA2D8BB003F76A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500D61551CA2D8BB003F76A2 /* ViewController.m in Sources */,
+				500D617F1CA2DAAA003F76A2 /* RTScreenRecorder.m in Sources */,
+				500D61521CA2D8BB003F76A2 /* main.m in Sources */,
+				500D614F1CA2D8BB003F76A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500D615C1CA2D8BB003F76A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500D61651CA2D8BB003F76A2 /* RTScreenRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500D61671CA2D8BB003F76A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500D61701CA2D8BB003F76A2 /* RTScreenRecorderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		500D61621CA2D8BB003F76A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 500D61491CA2D8BB003F76A2 /* RTScreenRecorder */;
+			targetProxy = 500D61611CA2D8BB003F76A2 /* PBXContainerItemProxy */;
+		};
+		500D616D1CA2D8BB003F76A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 500D61491CA2D8BB003F76A2 /* RTScreenRecorder */;
+			targetProxy = 500D616C1CA2D8BB003F76A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		500D61581CA2D8BB003F76A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				500D61591CA2D8BB003F76A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		500D61721CA2D8BB003F76A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		500D61731CA2D8BB003F76A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		500D61751CA2D8BB003F76A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RTScreenRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raventech.RTScreenRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		500D61761CA2D8BB003F76A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RTScreenRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raventech.RTScreenRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		500D61781CA2D8BB003F76A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RTScreenRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raventech.RTScreenRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTScreenRecorder.app/Contents/MacOS/RTScreenRecorder";
+			};
+			name = Debug;
+		};
+		500D61791CA2D8BB003F76A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RTScreenRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raventech.RTScreenRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTScreenRecorder.app/Contents/MacOS/RTScreenRecorder";
+			};
+			name = Release;
+		};
+		500D617B1CA2D8BB003F76A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RTScreenRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raventech.RTScreenRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RTScreenRecorder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		500D617C1CA2D8BB003F76A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RTScreenRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raventech.RTScreenRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RTScreenRecorder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		500D61451CA2D8BB003F76A2 /* Build configuration list for PBXProject "RTScreenRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500D61721CA2D8BB003F76A2 /* Debug */,
+				500D61731CA2D8BB003F76A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		500D61741CA2D8BB003F76A2 /* Build configuration list for PBXNativeTarget "RTScreenRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500D61751CA2D8BB003F76A2 /* Debug */,
+				500D61761CA2D8BB003F76A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		500D61771CA2D8BB003F76A2 /* Build configuration list for PBXNativeTarget "RTScreenRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500D61781CA2D8BB003F76A2 /* Debug */,
+				500D61791CA2D8BB003F76A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		500D617A1CA2D8BB003F76A2 /* Build configuration list for PBXNativeTarget "RTScreenRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500D617B1CA2D8BB003F76A2 /* Debug */,
+				500D617C1CA2D8BB003F76A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 500D61421CA2D8BB003F76A2 /* Project object */;
+}
