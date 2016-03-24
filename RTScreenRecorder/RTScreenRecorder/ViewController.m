@@ -13,8 +13,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.recorder = [[RTScreenRecorder alloc] initWithCallBack:^(NSImage *image) {
-        self.imageView.image = image;
+    self.recorder = [[RTScreenRecorder alloc] initWithCallBack:^(NSData *imageData) {
+        NSLog(@"image data size:%ld bytes",imageData.length);
+        self.imageView.image = [[NSImage alloc] initWithData:imageData];
     }];
     // Do any additional setup after loading the view.
 }

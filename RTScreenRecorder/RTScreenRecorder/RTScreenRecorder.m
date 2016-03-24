@@ -11,6 +11,8 @@
 @interface RTScreenRecorder ()
 {
     BOOL recording;
+    
+    NSData *lastFrameData;
 }
 @end
 
@@ -20,7 +22,7 @@
 @synthesize input;
 @synthesize output;
 
-- (instancetype)initWithCallBack:(void (^)(NSImage *image))callBack
+- (instancetype)initWithCallBack:(void (^)(NSData *imageData))callBack
 {
     self = [super init];
     if(self) {
@@ -110,6 +112,7 @@
 - (BOOL) stopRecording
 {
     [self.session stopRunning];
+    lastFrameData = nil;
     recording = NO;
     return YES;
 }
@@ -156,14 +159,32 @@
         CGColorSpaceRelease(colorSpace);
         CVPixelBufferUnlockBaseAddress(imageBuffer,0);
         
-        NSImage *image = [[NSImage alloc] initWithCGImage:newImage size:[self screenRect].size];
+        NSBitmapImageRep *bitmapRep = [[NSBitmapImageRep alloc] initWithCGImage:newImage];
+        CGFloat imageCompression = 0.5;
+        NSDictionary* jpegOptions = [NSDictionary dictionaryWithObjectsAndKeys:
+                                     [NSNumber numberWithDouble:imageCompression], NSImageCompressionFactor,
+                                     [NSNumber numberWithBool:NO], NSImageProgressive,
+                                     nil];
+        NSData* jpegData = [bitmapRep representationUsingType:NSJPEGFileType properties:jpegOptions];
+        
         CGImageRelease(newImage);
         
+        if (lastFrameData == nil) {
+            lastFrameData = jpegData;
+        } else {
+            if([jpegData isEqualToData:lastFrameData]) {
+                NSLog(@"Duplicate frame");
+                return;
+            } else {
+                lastFrameData = jpegData;
+            }
+        }
         dispatch_async(dispatch_get_main_queue(), ^{
             if(self.callBack) {
-                self.callBack(image);
+                self.callBack(jpegData);
             }
         });
+
     }
     @catch (NSException *exception) {
         NSLog(@"Error at %@",exception.debugDescription);

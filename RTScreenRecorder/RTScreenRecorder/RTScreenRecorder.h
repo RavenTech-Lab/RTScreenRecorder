@@ -17,7 +17,7 @@
 
 @property NSURL* file;
 
-@property (copy) void (^callBack)(NSImage *image);
+@property (copy) void (^callBack)(NSData *imageData);
 
 /**
  *  Initialize recorder with a callback which included image for every frame
@@ -26,7 +26,7 @@
  *
  *  @return Instance of RTScreenRecorder
  */
-- (instancetype)initWithCallBack:(void (^)(NSImage *image))callBack;
+- (instancetype)initWithCallBack:(void (^)(NSData *imageData))callBack;
 
 /**
  *  Initialize recorder with a file URL that will be the destination file of the video
